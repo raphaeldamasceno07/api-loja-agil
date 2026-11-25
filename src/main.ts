@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import {
   FastifyAdapter,
-  NestFastifyApplication,
+  type NestFastifyApplication,
 } from '@nestjs/platform-fastify';
 import { AppModule, ObserveInstrument } from './app.module.js';
 
